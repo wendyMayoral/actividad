@@ -1,0 +1,99 @@
+               --carrera--
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Enfermeria', 'CLAVEENFERMERIA', 1,1);
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Mecanica Automotriz', 'CLAVEMECANICA', 1,1);
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Psicologia', 'CLAVEPSICOLOGIA', 1,1);
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Gastronomia', 'CLAVEGASTRONOMIA', 1,1);
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Derecho', 'CLAVEDERECHO', 1,1);
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Civil', 'CLAVECIVIL', 1,1);
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Ciencias de la Educacion', 'CLAVEEDUCACION', 1,1);
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Criminologia', 'CLAVECRIMINOLOGIA', 1,1);
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Idiomas', 'CLAVEIDIOMAS', 1,1);
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Diseño Grafico', 'CLAVEDISEÑO', 1,1);
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Contabilidad', 'CLAVECONTABILIDAD', 1,1);
+       --matera--
+INSERT INTO Materia(Nombre, Active, Clave, CarreraId )
+values ('Base de Datos', 1, 'CLAVEBASEDEDATOS',1);
+INSERT INTO Materia(Nombre, Active, Clave, CarreraId )
+values ('Arquitectura de Computadoras', 1, 'CLAVEARQUITECTURA',1);
+INSERT INTO Materia(Nombre, Active, Clave, CarreraId )
+values ('Computacion Grafica', 1, 'CLAVECOMPUTACIONG',1);
+INSERT INTO Materia(Nombre, Active, Clave, CarreraId )
+values ('Programacion  de Sistemas', 1, 'CLAVESISTEMAS',1);
+INSERT INTO Materia(Nombre, Active, Clave, CarreraId )
+values ('Logica Matematica', 1, 'CLAVELOGICA',1);
+INSERT INTO Materia(Nombre, Active, Clave, CarreraId )
+values ('Ingles', 1, 'CLAVEINGLES',1);
+INSERT INTO Materia(Nombre, Active, Clave, CarreraId )
+values ('Cuidados y Terapia Intenciva', 1, 'CLAVETERAPI',2);
+INSERT INTO Materia(Nombre, Active, Clave, CarreraId )
+values ('Enfermeria de Adulto', 1, 'CLAVEADULTO',2);
+INSERT INTO Materia(Nombre, Active, Clave, CarreraId )
+values ('Metodologia de la Investigacion Clinica en Enfermeria', 1, 'CLAVEMETODOLOGIAENF',2);
+INSERT INTO Materia(Nombre, Active, Clave, CarreraId )
+values ('Practica Clinica', 1, 'CLAVEPRACTICACLINICA',2);
+                    --ciudad--
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('Ciudad de México', 'CLAVECMEXICO', 7);
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('Tijuana', 'CLAVECTIJUANA', 2);
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('Puebla de Saragoza', 'CLAVECPueblaZaragoza', 21);
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('Ciudad Juarez', 'CLAVECJUAREZ', 8);
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('Guadalajara', 'CLAVECGUADALAJARA', 15);
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('Zapopan', 'CLAVECZAPOPAN', 15);
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('Monterrey', 'CLAVECMONTERREY', 19);
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('Chihuahua', 'CLAVECCHIHUAHUA', 6);
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('Saltillo', 'CLAVECSALTILLO', 8);
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('Mexicali', 'CLAVECMEXICALI', 2);
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('San Luis Potosí', 'CLAVECSLPOTOSI', 24);                    
+                   --Pofesor--
+INSERT INTO profesor (Nombre, APaterno, AMaterno, Active, RFC, CarreraId, UsuarioId)
+values ('Jose Octavio', 'Esparza', 'Martinez', 1, 'RFCOCTAVIO', 1, 2);
+INSERT INTO profesor (Nombre, APaterno, AMaterno, Active, RFC, CarreraId, UsuarioId)
+values ('Daniel', 'Ozuna', 'Rosas', 1, 'RFCDANIEL', 1, 2);
+INSERT INTO profesor (Nombre, APaterno, AMaterno, Active, RFC, CarreraId, UsuarioId)
+values ('Martin', 'Cruz', 'Medinilla', 1, 'RFCMARTIN', 1, 2);
+INSERT INTO profesor (Nombre, APaterno, AMaterno, Active, RFC, CarreraId, UsuarioId)
+values ('Minerva', 'Meza', 'Juarez', 1, 'RFCMINERVA', 1, 2);
+INSERT INTO profesor (Nombre, APaterno, AMaterno, Active, RFC, CarreraId, UsuarioId)
+values ('Arturo', 'Quiahua', 'Soriano', 1, 'RFCARTURO', 1, 2);
+INSERT INTO profesor (Nombre, APaterno, AMaterno, Active, RFC, CarreraId, UsuarioId)
+values ('Cristina', 'Sanchez', 'Gonzalez', 1, 'RFCCRISTINA', 2, 2);
+INSERT INTO profesor (Nombre, APaterno, AMaterno, Active, RFC, CarreraId, UsuarioId)
+values ('Maria del Carmen', 'Ramirez', 'Trinidad', 1, 'RFCMARIA', 2, 2);
+INSERT INTO profesor (Nombre, APaterno, AMaterno, Active, RFC, CarreraId, UsuarioId)
+values ('Daniel', 'Ortiz', 'Carrillo', 1, 'RFCDANIELOY', 2, 2);
+INSERT INTO profesor (Nombre, APaterno, AMaterno, Active, RFC, CarreraId, UsuarioId)
+values ('Jose Luis', 'Olmos', 'Huerta', 1, 'RFCJOSE', 2, 2);
+INSERT INTO profesor (Nombre, APaterno, AMaterno, Active, RFC, CarreraId, UsuarioId)
+values ('Jazmín', 'Giron', 'Huerta', 1, 'RFCJAZMIN', 3, 2);
+                      --estudiante--   
+INSERT INTO estudiante (Nombre, APaterno, AMaterno, AnioIngreso, PeriodoId, Celular, Email, EstatusEstId, FechaNacimiento, UsuarioId, CarreraId, clave)
+values ('Wendy', 'Mayoral', 'Fuentes', 2022, 2, 9531433162, 'wendy@gmail', 1, 4/09/2004, 1, 1 ,'CLAVEWENDY');
+INSERT INTO estudiante (Nombre, APaterno, AMaterno, AnioIngreso, PeriodoId, Celular, Email, EstatusEstId, FechaNacimiento, UsuarioId, CarreraId, clave)
+values ('Evelin Esperanza', 'Mayoral', 'Fuentes', 2021, 2, 9538765987, 'evelin@gmail', 1, 27/09/2003, 1, 2 ,'CLAVEEVELIN');
+INSERT INTO estudiante (Nombre, APaterno, AMaterno, AnioIngreso, PeriodoId, Celular, Email, EstatusEstId, FechaNacimiento, UsuarioId, CarreraId, clave)
+values ('Abigail', 'Mendoza', 'Ortega', 2022, 2, 2389675430, 'abigail@gmail', 1, 22/08/2004, 1, 1 ,'CLAVABIGAIL');
+INSERT INTO estudiante (Nombre, APaterno, AMaterno, AnioIngreso, PeriodoId, Celular, Email, EstatusEstId, FechaNacimiento, UsuarioId, CarreraId, clave)
+values ('Rigoberto', 'Gregorio', 'Gerrero', 2022, 2, 7654876598, 'ulises@gmail', 1, 12/01/2004, 1, 1 ,'CLAVEULISES');
+INSERT INTO estudiante (Nombre, APaterno, AMaterno, AnioIngreso, PeriodoId, Celular, Email, EstatusEstId, FechaNacimiento, UsuarioId, CarreraId, clave)
+values ('Iris Lizeth', 'Sanchez', 'Garcia', 2022, 2, 2389653429, 'liz@gmail', 1, 7/04/2004, 1, 1 ,'CLAVELIZ');
