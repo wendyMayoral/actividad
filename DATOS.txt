@@ -1,0 +1,220 @@
+               --carrera--
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Enfermeria', 'CLAVEENFERMERIA', 1,1);
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Mecanica Automotriz', 'CLAVEMECANICA', 1,1);
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Psicologia', 'CLAVEPSICOLOGIA', 1,1);
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Gastronomia', 'CLAVEGASTRONOMIA', 1,1);
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Derecho', 'CLAVEDERECHO', 1,1);
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Civil', 'CLAVECIVIL', 1,1);
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Ciencias de la Educacion', 'CLAVEEDUCACION', 1,1);
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Criminologia', 'CLAVECRIMINOLOGIA', 1,1);
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Idiomas', 'CLAVEIDIOMAS', 1,1);
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Diseño Grafico', 'CLAVEDISEÑO', 1,1);
+INSERT INTO carrera (Nombre, clave, Active, CreatedBy) 
+values ('Contabilidad', 'CLAVECONTABILIDAD', 1,1);
+       --matera--
+INSERT INTO Materia(Nombre, Active, Clave, CarreraId )
+values ('Base de Datos', 1, 'CLAVEBASEDEDATOS',1);
+INSERT INTO Materia(Nombre, Active, Clave, CarreraId )
+values ('Arquitectura de Computadoras', 1, 'CLAVEARQUITECTURA',1);
+INSERT INTO Materia(Nombre, Active, Clave, CarreraId )
+values ('Computacion Grafica', 1, 'CLAVECOMPUTACIONG',1);
+INSERT INTO Materia(Nombre, Active, Clave, CarreraId )
+values ('Programacion  de Sistemas', 1, 'CLAVESISTEMAS',1);
+INSERT INTO Materia(Nombre, Active, Clave, CarreraId )
+values ('Logica Matematica', 1, 'CLAVELOGICA',1);
+INSERT INTO Materia(Nombre, Active, Clave, CarreraId )
+values ('Ingles', 1, 'CLAVEINGLES',1);
+INSERT INTO Materia(Nombre, Active, Clave, CarreraId )
+values ('Cuidados y Terapia Intenciva', 1, 'CLAVETERAPI',2);
+INSERT INTO Materia(Nombre, Active, Clave, CarreraId )
+values ('Enfermeria de Adulto', 1, 'CLAVEADULTO',2);
+INSERT INTO Materia(Nombre, Active, Clave, CarreraId )
+values ('Metodologia de la Investigacion Clinica en Enfermeria', 1, 'CLAVEMETODOLOGIAENF',2);
+INSERT INTO Materia(Nombre, Active, Clave, CarreraId )
+values ('Practica Clinica', 1, 'CLAVEPRACTICACLINICA',2);
+                    --ciudad--
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('Ciudad de México', 'CLAVECMEXICO', 7);
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('Tijuana', 'CLAVECTIJUANA', 2);
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('Puebla de Saragoza', 'CLAVECPueblaZaragoza', 21);
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('Ciudad Juarez', 'CLAVECJUAREZ', 8);
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('Guadalajara', 'CLAVECGUADALAJARA', 15);
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('Zapopan', 'CLAVECZAPOPAN', 15);
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('Monterrey', 'CLAVECMONTERREY', 19);
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('Chihuahua', 'CLAVECCHIHUAHUA', 6);
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('Saltillo', 'CLAVECSALTILLO', 8);
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('Mexicali', 'CLAVECMEXICALI', 2);
+INSERT INTO ciudad (NombreCiudad, clave, EstadoId)
+values ('San Luis Potosí', 'CLAVECSLPOTOSI', 24);                    
+                   --Profesor--
+INSERT INTO profesor (Nombre, APaterno, AMaterno, Active, RFC, CarreraId, UsuarioId)
+values ('Jose Octavio', 'Esparza', 'Martinez', 1, 'RFCOCTAVIO', 1, 2);
+INSERT INTO profesor (Nombre, APaterno, AMaterno, Active, RFC, CarreraId, UsuarioId)
+values ('Daniel', 'Ozuna', 'Rosas', 1, 'RFCDANIEL', 1, 2);
+INSERT INTO profesor (Nombre, APaterno, AMaterno, Active, RFC, CarreraId, UsuarioId)
+values ('Martin', 'Cruz', 'Medinilla', 1, 'RFCMARTIN', 1, 2);
+INSERT INTO profesor (Nombre, APaterno, AMaterno, Active, RFC, CarreraId, UsuarioId)
+values ('Minerva', 'Meza', 'Juarez', 1, 'RFCMINERVA', 1, 2);
+INSERT INTO profesor (Nombre, APaterno, AMaterno, Active, RFC, CarreraId, UsuarioId)
+values ('Arturo', 'Quiahua', 'Soriano', 1, 'RFCARTURO', 1, 2);
+INSERT INTO profesor (Nombre, APaterno, AMaterno, Active, RFC, CarreraId, UsuarioId)
+values ('Cristina', 'Sanchez', 'Gonzalez', 1, 'RFCCRISTINA', 2, 2);
+INSERT INTO profesor (Nombre, APaterno, AMaterno, Active, RFC, CarreraId, UsuarioId)
+values ('Maria del Carmen', 'Ramirez', 'Trinidad', 1, 'RFCMARIA', 2, 2);
+INSERT INTO profesor (Nombre, APaterno, AMaterno, Active, RFC, CarreraId, UsuarioId)
+values ('Daniel', 'Ortiz', 'Carrillo', 1, 'RFCDANIELOY', 2, 2);
+INSERT INTO profesor (Nombre, APaterno, AMaterno, Active, RFC, CarreraId, UsuarioId)
+values ('Jose Luis', 'Olmos', 'Huerta', 1, 'RFCJOSE', 2, 2);
+INSERT INTO profesor (Nombre, APaterno, AMaterno, Active, RFC, CarreraId, UsuarioId)
+values ('Jazmín', 'Giron', 'Huerta', 1, 'RFCJAZMIN', 3, 2);
+                      --estudiante--   
+INSERT INTO estudiante (Nombre, APaterno, AMaterno, AnioIngreso, PeriodoId, Celular, Email, EstatusEstId, FechaNacimiento, UsuarioId, CarreraId, clave)
+values ('Wendy', 'Mayoral', 'Fuentes', 2022, 2, 9531433162, 'wendy@gmail', 1, 4/09/2004, 1, 1 ,'CLAVEWENDY');
+INSERT INTO estudiante (Nombre, APaterno, AMaterno, AnioIngreso, PeriodoId, Celular, Email, EstatusEstId, FechaNacimiento, UsuarioId, CarreraId, clave)
+values ('Evelin Esperanza', 'Mayoral', 'Fuentes', 2021, 2, 9538765987, 'evelin@gmail', 1, 27/09/2003, 1, 2 ,'CLAVEEVELIN');
+INSERT INTO estudiante (Nombre, APaterno, AMaterno, AnioIngreso, PeriodoId, Celular, Email, EstatusEstId, FechaNacimiento, UsuarioId, CarreraId, clave)
+values ('Abigail', 'Mendoza', 'Ortega', 2022, 2, 2389675430, 'abigail@gmail', 1, 22/08/2004, 1, 1 ,'CLAVABIGAIL');
+INSERT INTO estudiante (Nombre, APaterno, AMaterno, AnioIngreso, PeriodoId, Celular, Email, EstatusEstId, FechaNacimiento, UsuarioId, CarreraId, clave)
+values ('Rigoberto', 'Gregorio', 'Gerrero', 2022, 2, 7654876598, 'ulises@gmail', 1, 12/01/2004, 1, 1 ,'CLAVEULISES');
+INSERT INTO estudiante (Nombre, APaterno, AMaterno, AnioIngreso, PeriodoId, Celular, Email, EstatusEstId, FechaNacimiento, UsuarioId, CarreraId, clave)
+values ('Iris Lizeth', 'Sanchez', 'Garcia', 2022, 2, 2389653429, 'liz@gmail', 1, 7/04/2004, 1, 1 ,'CLAVELIZ');
+                                   --tipo actividad--
+INSERT INTO TipoActividad (nombre)
+values ("Trabajo Especial");                                   
+INSERT INTO TipoActividad (nombre)
+values ("Actividad en Clase");
+INSERT INTO TipoActividad (nombre)
+values ("Participacion");                                                                      
+INSERT INTO TipoActividad (nombre)
+values ("puntualidad");                                   
+                                    --clase--
+INSERT INTO clase (Nombre, Horario, materiaId, Active, profesorId, Semestre, Anio, PeriodoId, EstatusClaseId)
+values ("Arquitectura de Computadoras", '8:00-9:00',2 , 1, 1, '4', '20024', 1, 1);
+INSERT INTO clase (Nombre, Horario, materiaId, Active, profesorId, Semestre, Anio, PeriodoId, EstatusClaseId)
+values ("Logica Matematica", '9:00-10:00', 5, 1, 2, '4', '20024', 1, 1);
+INSERT INTO clase (Nombre, Horario, materiaId, Active, profesorId, Semestre, Anio, PeriodoId, EstatusClaseId)
+values ("Analisis y Diseño de Base de Datos", '10:00-11:00', 1, 1, '4', 'Cuarto Semestre', '20024', 1, 1);
+INSERT INTO clase (Nombre, Horario, materiaId, Active, profesorId, Semestre, Anio, PeriodoId, EstatusClaseId)
+values ("Computación Grafica", '11:30-12:30', 3, 1, 2, '4', '20024', 1, 1);
+INSERT INTO clase (Nombre, Horario, materiaId, Active, profesorId, Semestre, Anio, PeriodoId, EstatusClaseId)
+values ("Ingles", '12:30-1:30', 6, 1, 4, '4', '20024', 1, 1);
+INSERT INTO clase (Nombre, Horario, materiaId, Active, profesorId, Semestre, Anio, PeriodoId, EstatusClaseId)
+values ("Programación de Sistemas", '1:30-2:30', 4, 1, 5, '4', '20024', 1, 1);
+INSERT INTO clase (Nombre, Horario, materiaId, Active, profesorId, Semestre, Anio, PeriodoId, EstatusClaseId)
+values ("Investigación Clinica en E nfermeria", '8:00-9:00', 9, 1, 7, '6', '20024', 1, 1);
+                       --Domicilio--
+INSERT INTO domicilio (Direccion, EstudianteId, EstadoId, CiudadId)
+values (" Esq 5 poniente y 2 sur", 1, 21, 1);
+INSERT INTO domicilio (Direccion, EstudianteId, EstadoId, CiudadId)
+values ("Esq 6 poniente 2 sur", 2, 21, 1);
+INSERT INTO domicilio (Direccion, EstudianteId, EstadoId, CiudadId)
+values ("Esq 7 poniente 2 sur", 2, 21, 1);
+INSERT INTO domicilio (Direccion, EstudianteId, EstadoId, CiudadId)
+values ("reforma", 3, 21, 1);
+INSERT INTO domicilio (Direccion, EstudianteId, EstadoId, CiudadId)
+values ("josefa", 4, 20, 1);
+                          --estudiante clase--
+INSERT INTO estudianteclase (EstudianteId, ClaseId)
+values (1, 1);
+INSERT INTO estudianteclase (EstudianteId, ClaseId)
+values (2, 8);
+INSERT INTO estudianteclase (EstudianteId, ClaseId)
+values (3, 5);
+INSERT INTO estudianteclase (EstudianteId, ClaseId)
+values (4, 7);
+INSERT INTO estudianteclase (EstudianteId, ClaseId)
+values (5, 3);
+INSERT INTO estudianteclase (EstudianteId, ClaseId)
+values (4, 4);
+INSERT INTO estudianteclase (EstudianteId, ClaseId)
+values (1, 2);
+INSERT INTO estudianteclase (EstudianteId, ClaseId)
+values (3, 6);
+INSERT INTO estudianteclase (EstudianteId, ClaseId)
+values (1, 8);
+INSERT INTO estudianteclase (EstudianteId, ClaseId)
+values (5, 1);
+                                         --actividad--
+INSERT INTO actividad (Nombre, Descripcion, ClaseId, ValorMaximo, FechaExpiracion, FechaRegistro, TipoActividadId, Parcial)
+values ("INFOGRAFIA", "Realifzar una Infografia de la evolucion de la computadora", 1, '10', '20-04-2024', '27-04-2024', 1, '4');    
+INSERT INTO actividad (Nombre, Descripcion, ClaseId, ValorMaximo, FechaExpiracion, FechaRegistro, TipoActividadId, Parcial)
+values ("INFOGRAFIA", "Realifzar una Infografia de la primera generacion dela computadora", 1, '10', '20-04-2024', '27-04-2024', 1, '4');    
+INSERT INTO actividad (Nombre, Descripcion, ClaseId, ValorMaximo, FechaExpiracion, FechaRegistro, TipoActividadId, Parcial)
+values ("INFOGRAFIA", "Realifzar una Infografia de la segunda generacon de la computadora", 1, '10', '20-04-2024', '27-04-2024', 1, '4');    
+INSERT INTO actividad (Nombre, Descripcion, ClaseId, ValorMaximo, FechaExpiracion, FechaRegistro, TipoActividadId, Parcial)
+values ("INFOGRAFIA", "Realifzar una Infografia de la terceara generacion de la computadora", 1, '10', '20-04-2024', '27-04-2024', 1, '4');    
+INSERT INTO actividad (Nombre, Descripcion, ClaseId, ValorMaximo, FechaExpiracion, FechaRegistro, TipoActividadId, Parcial)
+values ("INFOGRAFIA", "Realifzar una Infografia de la cuarta generacion de la computadora", 1, '10', '20-04-2024', '27-04-2024', 1, '4');    
+INSERT INTO actividad (Nombre, Descripcion, ClaseId, ValorMaximo, FechaExpiracion, FechaRegistro, TipoActividadId, Parcial)
+values ("INFOGRAFIA", "Realifzar una Infografia de la sexta generacion de la computadora", 1, '10', '20-04-2024', '27-04-2024', 1, '4');    
+INSERT INTO actividad (Nombre, Descripcion, ClaseId, ValorMaximo, FechaExpiracion, FechaRegistro, TipoActividadId, Parcial)
+values ("INFOGRAFIA", "Elabora una infografía acerca de que es una computadora inteligente", 1, '10', '20-04-2024', '27-04-2024', 1, '4');    
+INSERT INTO actividad (Nombre, Descripcion, ClaseId, ValorMaximo, FechaExpiracion, FechaRegistro, TipoActividadId, Parcial)
+values ("INGRESAR DATOS", "Ingreasa 10 datoas en cada campo de la Base de Datos", 3, '10', '20-04-2024', '27-04-2024', 1, '4');    
+INSERT INTO actividad (Nombre, Descripcion, ClaseId, ValorMaximo, FechaExpiracion, FechaRegistro, TipoActividadId, Parcial)
+values ("INVESTIGACION", "Crear usuarios en mysql, Permisos sobre usuarios de Base de Datos", 3, '10', '27-04-2024', '20-04-2024', 1, '4');    
+INSERT INTO actividad (Nombre, Descripcion, ClaseId, ValorMaximo, FechaExpiracion, FechaRegistro, TipoActividadId, Parcial)
+values ("EXTRA", "Crear script de insertar 5 registros en cada tabla", 3, '10', '20-04-2024', '27-04-2024', 2, '4');    
+INSERT INTO actividad (Nombre, Descripcion, ClaseId, ValorMaximo, FechaExpiracion, FechaRegistro, TipoActividadId, Parcial)
+values ("APUNTE", "Transcribir Apuntes", 7, '10', '20-04-2024', '27-04-2024', 1, '4');                                         
+                                          --estudianteActividad--
+INSERT INTO estudianteActividad (FechaRegistro, Calificacion, EstudianteId, ClaseId, ActividadId)
+values ('11-09-2022', '10', 1, 5, 1);                                          
+INSERT INTO estudianteActividad (FechaRegistro, Calificacion, EstudianteId, ClaseId, ActividadId)
+values ('11-09-2021', '10', 2, 1, 1);
+INSERT INTO estudianteActividad (FechaRegistro, Calificacion, EstudianteId, ClaseId, ActividadId)
+values ('11-09-2022', '10', 3, 3, 1);
+INSERT INTO estudianteActividad (FechaRegistro, Calificacion, EstudianteId, ClaseId, ActividadId)
+values ('11-09-2022', '10', 4, 7, 1);
+INSERT INTO estudianteActividad (FechaRegistro, Calificacion, EstudianteId, ClaseId, ActividadId)
+values ('11-09-2022', '10', 5, 3, 1);
+INSERT INTO estudianteActividad (FechaRegistro, Calificacion, EstudianteId, ClaseId, ActividadId)
+values ('11-09-2022', '10', 5, 2, 1);
+INSERT INTO estudianteActividad (FechaRegistro, Calificacion, EstudianteId, ClaseId, ActividadId)
+values ('11-09-2022', '10', 3, 6, 1);
+INSERT INTO estudianteActividad (FechaRegistro, Calificacion, EstudianteId, ClaseId, ActividadId)
+values ('11-09-2021', '10', 2, 4, 1);
+INSERT INTO estudianteActividad (FechaRegistro, Calificacion, EstudianteId, ClaseId, ActividadId)
+values ('11-09-2022', '10', 1, 2, 1);
+INSERT INTO estudianteActividad (FechaRegistro, Calificacion, EstudianteId, ClaseId, ActividadId)
+values ('11-09-2022', '10', 5, 3, 1);
+                                       --estudizanteEvaluacion--
+INSERT INTO estudianteEvaluacion (EstudianteId, ClaseId, UnidadI, UnidadII, UnidadIII, PuntosExtras)
+values (1, 6, '9', '9', '10', '0');
+INSERT INTO estudianteEvaluacion (EstudianteId, ClaseId, UnidadI, UnidadII, UnidadIII, PuntosExtras)
+values (2, 10, '10', '9', '8', '2');
+INSERT INTO estudianteEvaluacion (EstudianteId, ClaseId, UnidadI, UnidadII, UnidadIII, PuntosExtras)
+values (3, 4, '9', '10', '9', '1');
+INSERT INTO estudianteEvaluacion (EstudianteId, ClaseId, UnidadI, UnidadII, UnidadIII, PuntosExtras)
+values (4, 7, '8', '9', '10', '0');
+INSERT INTO estudianteEvaluacion (EstudianteId, ClaseId, UnidadI, UnidadII, UnidadIII, PuntosExtras)
+values (5, 11, '10', '8', '10', '2');
+INSERT INTO estudianteEvaluacion (EstudianteId, ClaseId, UnidadI, UnidadII, UnidadIII, PuntosExtras)
+values (3, 2, '10', '9', '8', '1');
+INSERT INTO estudianteEvaluacion (EstudianteId, ClaseId, UnidadI, UnidadII, UnidadIII, PuntosExtras)
+values (2, 1, '9', '8', '9', '1');
+INSERT INTO estudianteEvaluacion (EstudianteId, ClaseId, UnidadI, UnidadII, UnidadIII, PuntosExtras)
+values (1, 8, '8', '9', '10', '0');
+INSERT INTO estudianteEvaluacion (EstudianteId, ClaseId, UnidadI, UnidadII, UnidadIII, PuntosExtras)
+values (2, 5, '9', '10', '9', '0');
+INSERT INTO estudianteEvaluacion (EstudianteId, ClaseId, UnidadI, UnidadII, UnidadIII, PuntosExtras)
+values (4, 7, '8', '9', '9', '1');
